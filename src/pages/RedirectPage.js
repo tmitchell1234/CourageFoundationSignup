@@ -108,7 +108,7 @@ export default function RedirectPage()
 
                     {showSuccess && (
                         <Alert variant="success" onClose={() => setShowSuccess(false)} dismissible>
-                            <Alert.Heading>Veteran status verified!</Alert.Heading>
+                            <Alert.Heading>Success!</Alert.Heading>
                             <p>You will shortly be sent an email invite to finish signing up for the site.</p>
                         </Alert>
                     )}
